@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F724EE5F27FB75320092615C /* YoneticiHaritaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F724EE5E27FB75320092615C /* YoneticiHaritaViewController.swift */; };
+		F729A00327F07F22001ADF6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729A00227F07F22001ADF6D /* AppDelegate.swift */; };
+		F729A00527F07F22001ADF6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729A00427F07F22001ADF6D /* SceneDelegate.swift */; };
+		F729A00727F07F22001ADF6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729A00627F07F22001ADF6D /* ViewController.swift */; };
+		F729A00A27F07F22001ADF6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F729A00827F07F22001ADF6D /* Main.storyboard */; };
+		F729A00D27F07F22001ADF6D /* yazlabSecondProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F729A00B27F07F22001ADF6D /* yazlabSecondProject.xcdatamodeld */; };
+		F729A00F27F07F23001ADF6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F729A00E27F07F23001ADF6D /* Assets.xcassets */; };
+		F729A01227F07F23001ADF6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F729A01027F07F23001ADF6D /* LaunchScreen.storyboard */; };
+		F729A01C27F0823D001ADF6D /* YoneticiGirisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729A01B27F0823D001ADF6D /* YoneticiGirisViewController.swift */; };
+		F729A01E27F0824E001ADF6D /* KullaniciGirisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729A01D27F0824E001ADF6D /* KullaniciGirisViewController.swift */; };
+		F729A02027F08285001ADF6D /* KayitOlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729A01F27F08285001ADF6D /* KayitOlViewController.swift */; };
+		F73C773227FB464900188BC2 /* YoneticiParametreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73C773127FB464900188BC2 /* YoneticiParametreViewController.swift */; };
+		F766A16227F6230C00031AB1 /* KullaniciAnaEkranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766A16127F6230C00031AB1 /* KullaniciAnaEkranViewController.swift */; };
+		F766A16427F62E3B00031AB1 /* YoneticiAnaEkranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766A16327F62E3B00031AB1 /* YoneticiAnaEkranViewController.swift */; };
+		F7D3DBBE27F72FC700E16E6D /* KullaniciHaritaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3DBBD27F72FC700E16E6D /* KullaniciHaritaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F724EE5E27FB75320092615C /* YoneticiHaritaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoneticiHaritaViewController.swift; sourceTree = "<group>"; };
+		F7299FFF27F07F22001ADF6D /* yazlabSecondProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yazlabSecondProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F729A00227F07F22001ADF6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F729A00427F07F22001ADF6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F729A00627F07F22001ADF6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F729A00927F07F22001ADF6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F729A00C27F07F22001ADF6D /* yazlabSecondProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = yazlabSecondProject.xcdatamodel; sourceTree = "<group>"; };
+		F729A00E27F07F23001ADF6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F729A01127F07F23001ADF6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F729A01327F07F23001ADF6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F729A01B27F0823D001ADF6D /* YoneticiGirisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoneticiGirisViewController.swift; sourceTree = "<group>"; };
+		F729A01D27F0824E001ADF6D /* KullaniciGirisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciGirisViewController.swift; sourceTree = "<group>"; };
+		F729A01F27F08285001ADF6D /* KayitOlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitOlViewController.swift; sourceTree = "<group>"; };
+		F73C773127FB464900188BC2 /* YoneticiParametreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoneticiParametreViewController.swift; sourceTree = "<group>"; };
+		F766A16127F6230C00031AB1 /* KullaniciAnaEkranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciAnaEkranViewController.swift; sourceTree = "<group>"; };
+		F766A16327F62E3B00031AB1 /* YoneticiAnaEkranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoneticiAnaEkranViewController.swift; sourceTree = "<group>"; };
+		F799819527FB397700CC2EAB /* yazlabSecondProject 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "yazlabSecondProject 3.xcdatamodel"; sourceTree = "<group>"; };
+		F7CCBAEF27F8A41100AD49B0 /* yazlabSecondProject 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "yazlabSecondProject 2.xcdatamodel"; sourceTree = "<group>"; };
+		F7D3DBBD27F72FC700E16E6D /* KullaniciHaritaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciHaritaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7299FFC27F07F22001ADF6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7299FF627F07F22001ADF6D = {
+			isa = PBXGroup;
+			children = (
+				F729A00127F07F22001ADF6D /* yazlabSecondProject */,
+				F729A00027F07F22001ADF6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F729A00027F07F22001ADF6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7299FFF27F07F22001ADF6D /* yazlabSecondProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F729A00127F07F22001ADF6D /* yazlabSecondProject */ = {
+			isa = PBXGroup;
+			children = (
+				F729A00227F07F22001ADF6D /* AppDelegate.swift */,
+				F729A00427F07F22001ADF6D /* SceneDelegate.swift */,
+				F729A00627F07F22001ADF6D /* ViewController.swift */,
+				F729A00827F07F22001ADF6D /* Main.storyboard */,
+				F729A00E27F07F23001ADF6D /* Assets.xcassets */,
+				F729A01027F07F23001ADF6D /* LaunchScreen.storyboard */,
+				F729A01327F07F23001ADF6D /* Info.plist */,
+				F729A00B27F07F22001ADF6D /* yazlabSecondProject.xcdatamodeld */,
+				F729A01B27F0823D001ADF6D /* YoneticiGirisViewController.swift */,
+				F729A01D27F0824E001ADF6D /* KullaniciGirisViewController.swift */,
+				F729A01F27F08285001ADF6D /* KayitOlViewController.swift */,
+				F766A16127F6230C00031AB1 /* KullaniciAnaEkranViewController.swift */,
+				F766A16327F62E3B00031AB1 /* YoneticiAnaEkranViewController.swift */,
+				F7D3DBBD27F72FC700E16E6D /* KullaniciHaritaViewController.swift */,
+				F73C773127FB464900188BC2 /* YoneticiParametreViewController.swift */,
+				F724EE5E27FB75320092615C /* YoneticiHaritaViewController.swift */,
+			);
+			path = yazlabSecondProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7299FFE27F07F22001ADF6D /* yazlabSecondProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F729A01627F07F23001ADF6D /* Build configuration list for PBXNativeTarget "yazlabSecondProject" */;
+			buildPhases = (
+				F7299FFB27F07F22001ADF6D /* Sources */,
+				F7299FFC27F07F22001ADF6D /* Frameworks */,
+				F7299FFD27F07F22001ADF6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yazlabSecondProject;
+			productName = yazlabSecondProject;
+			productReference = F7299FFF27F07F22001ADF6D /* yazlabSecondProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7299FF727F07F22001ADF6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F7299FFE27F07F22001ADF6D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = F7299FFA27F07F22001ADF6D /* Build configuration list for PBXProject "yazlabSecondProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7299FF627F07F22001ADF6D;
+			productRefGroup = F729A00027F07F22001ADF6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7299FFE27F07F22001ADF6D /* yazlabSecondProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7299FFD27F07F22001ADF6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F729A01227F07F23001ADF6D /* LaunchScreen.storyboard in Resources */,
+				F729A00F27F07F23001ADF6D /* Assets.xcassets in Resources */,
+				F729A00A27F07F22001ADF6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7299FFB27F07F22001ADF6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F729A02027F08285001ADF6D /* KayitOlViewController.swift in Sources */,
+				F729A01C27F0823D001ADF6D /* YoneticiGirisViewController.swift in Sources */,
+				F766A16427F62E3B00031AB1 /* YoneticiAnaEkranViewController.swift in Sources */,
+				F729A00D27F07F22001ADF6D /* yazlabSecondProject.xcdatamodeld in Sources */,
+				F7D3DBBE27F72FC700E16E6D /* KullaniciHaritaViewController.swift in Sources */,
+				F724EE5F27FB75320092615C /* YoneticiHaritaViewController.swift in Sources */,
+				F73C773227FB464900188BC2 /* YoneticiParametreViewController.swift in Sources */,
+				F729A00727F07F22001ADF6D /* ViewController.swift in Sources */,
+				F766A16227F6230C00031AB1 /* KullaniciAnaEkranViewController.swift in Sources */,
+				F729A01E27F0824E001ADF6D /* KullaniciGirisViewController.swift in Sources */,
+				F729A00327F07F22001ADF6D /* AppDelegate.swift in Sources */,
+				F729A00527F07F22001ADF6D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F729A00827F07F22001ADF6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F729A00927F07F22001ADF6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F729A01027F07F23001ADF6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F729A01127F07F23001ADF6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F729A01427F07F23001ADF6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F729A01527F07F23001ADF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F729A01727F07F23001ADF6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D747FM4CA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yazlabSecondProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinantopal.yazlabSecondProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F729A01827F07F23001ADF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D747FM4CA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yazlabSecondProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinantopal.yazlabSecondProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7299FFA27F07F22001ADF6D /* Build configuration list for PBXProject "yazlabSecondProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F729A01427F07F23001ADF6D /* Debug */,
+				F729A01527F07F23001ADF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F729A01627F07F23001ADF6D /* Build configuration list for PBXNativeTarget "yazlabSecondProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F729A01727F07F23001ADF6D /* Debug */,
+				F729A01827F07F23001ADF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F729A00B27F07F22001ADF6D /* yazlabSecondProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F799819527FB397700CC2EAB /* yazlabSecondProject 3.xcdatamodel */,
+				F7CCBAEF27F8A41100AD49B0 /* yazlabSecondProject 2.xcdatamodel */,
+				F729A00C27F07F22001ADF6D /* yazlabSecondProject.xcdatamodel */,
+			);
+			currentVersion = F729A00C27F07F22001ADF6D /* yazlabSecondProject.xcdatamodel */;
+			path = yazlabSecondProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F7299FF727F07F22001ADF6D /* Project object */;
+}

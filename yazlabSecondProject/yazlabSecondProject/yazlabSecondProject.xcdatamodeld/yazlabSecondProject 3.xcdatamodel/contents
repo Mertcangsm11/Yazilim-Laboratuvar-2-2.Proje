@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Duraklar" representedClassName="Duraklar" syncable="YES" codeGenerationType="class">
+        <attribute name="durakAdi" optional="YES" attributeType="String"/>
+        <attribute name="idid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="latitude" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Kullanici" representedClassName="Kullanici" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Talepler" representedClassName="Talepler" syncable="YES" codeGenerationType="class">
+        <attribute name="idd" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="kisiAdi" optional="YES" attributeType="String"/>
+        <attribute name="talep" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Duraklar" positionX="135" positionY="36" width="128" height="89"/>
+        <element name="Kullanici" positionX="-87.11328125" positionY="39.3515625" width="128" height="74"/>
+        <element name="Talepler" positionX="45" positionY="90" width="128" height="74"/>
+    </elements>
+</model>
